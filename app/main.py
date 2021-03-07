@@ -9,6 +9,7 @@ class Application(tk.Frame):
         super().__init__(master)
         self.master = master
         self.master.geometry("350x450")
+        self.master.title("Body Mass")
         self.master.configure(bg="blue")
         self.pack()
         self.create_widgets()
